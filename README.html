@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>lerna example</title>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+        
+        <style>
+.task-list-item { list-style-type: none; } .task-list-item-checkbox { margin-left: -20px; vertical-align: middle; }
+</style>
+        <style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        
+        
+    </head>
+    <body class="vscode-light">
+        <h1 id="lerna-example">lerna example</h1>
+<h2 id="steps">steps</h2>
+<pre><code class="language-bash"><div><span class="hljs-comment"># react native init</span>
+react-native init Example
+
+<span class="hljs-comment"># lerna ini</span>
+npx lerna init
+
+<span class="hljs-comment"># package create</span>
+npx lerna create [라이브러리 이름]
+
+<span class="hljs-comment"># package에서 사용할 dependency 추가</span>
+npx lerna add [npm module]
+
+<span class="hljs-comment"># lerna bootstrap</span>
+npx lerna bootstrap
+
+<span class="hljs-comment"># run packages script (build, test, ...)</span>
+npx lerna run [script]
+
+<span class="hljs-comment"># publish packges (after commit)</span>
+npx lerna publish
+</div></code></pre>
+<h2 id="reference">reference</h2>
+<p><a href="https://github.com/Hy-Vee/lerna-yarn-workspaces-monorepo">Hy-Vee/lerna-yarn-workspaces-monorepo</a></p>
+
+    </body>
+    </html>
