@@ -1,6 +1,6 @@
 # lerna example
 
-> React Native UI library examplee
+> React Native UI library example
 
 ## included
 
