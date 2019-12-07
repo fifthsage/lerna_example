@@ -1,5 +1,11 @@
 # lerna example
 
+> React Native UI library examplee
+
+## included
+
+- jest (enzyme)
+
 ## steps
 
 ```bash
@@ -10,7 +16,7 @@ react-native init Example
 npx lerna init
 
 # package create
-npx lerna create [라이브러리 이름]
+npx lerna create [library]
 
 # package에서 사용할 dependency 추가
 npx lerna add [npm module]
